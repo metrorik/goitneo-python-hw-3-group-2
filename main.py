@@ -17,18 +17,10 @@ def input_error(func):
         #     return f"Error: {str(e)}"
     return inner
 
-# class Field():
-#     def __init__(self, value):
-#         self.value = value
-
-#     def __str__(self):
-#         return str(self.value)
-
 class Birthday():
     """
     Клас для представлення дня народження користувача.
     """
-
     def __init__(self, value):
         self.value = value
     
